@@ -214,7 +214,8 @@ Method 1:
  
  4:Remove elements
  
-       1-2-1. Add Elements to a Vector
+       Add Elements to a Vector
        -------------------------------
+ 
        vector<int>vect{1,2,3};
        vect.push_back(22);
