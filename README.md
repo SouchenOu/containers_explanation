@@ -372,27 +372,27 @@ The C++ Standard Library vector class is a class template for sequence container
        ---------
      
  
-        1: [allocator_type](#allocator_type):	A type that represents the allocator class for the vector object.
+        1-[allocator_type](#allocator_type):	A type that represents the allocator class for the vector object.
  
-        2:const_iterator	A type that provides a random-access iterator that can read a const element in a vector.
+        2-const_iterator: A type that provides a random-access iterator that can read a const element in a vector.
  
-        3:const_pointer	A type that provides a pointer to a const element in a vector.
+        3-const_pointer:	A type that provides a pointer to a const element in a vector.
  
-        4:const_reference	A type that provides a reference to a const element stored in a vector. It's used for reading and doing const operations.
+        4-const_reference:	A type that provides a reference to a const element stored in a vector. It's used for reading and doing const operations.
  
-        5:const_reverse_iterator	A type that provides a random-access iterator that can read any const element in the vector.
+        5-const_reverse_iterator:	A type that provides a random-access iterator that can read any const element in the vector.
  
-        6:difference_type	A type that provides the difference between the addresses of two elements in a vector.
+        6-difference_type:	A type that provides the difference between the addresses of two elements in a vector.
  
-        7:iterator	A type that provides a random-access iterator that can read or modify any element in a vector.
+        7-iterator:	A type that provides a random-access iterator that can read or modify any element in a vector.
  
-        8:pointer	A type that provides a pointer to an element in a vector.
+        8-pointer:	A type that provides a pointer to an element in a vector.
  
-        9:reference	A type that provides a reference to an element stored in a vector.
+        9-reference:	A type that provides a reference to an element stored in a vector.
  
-        10:reverse_iterator	A type that provides a random-access iterator that can read or modify any element in a reversed vector.
+        10-reverse_iterator:	A type that provides a random-access iterator that can read or modify any element in a reversed vector.
  
-        11:size_type	A type that counts the number of elements in a vector.
+        11-size_type:	A type that counts the number of elements in a vector.
  
-        12:value_type	A type that represents the data type stored in a vector.
+        12-value_type:	A type that represents the data type stored in a vector.
  
