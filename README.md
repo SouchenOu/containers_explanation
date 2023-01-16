@@ -136,3 +136,18 @@ Vectors are part of the C++ Standard Template Library. To use vectors, we need t
  
  
          #include <vector>
+ 
+1:1.  -C++ Vector Initialization
+ --------------------------------
+ 
+Method 1:
+
+           vector<int> vector1 = {1, 2, 3, 4, 5};
+ 
+ Method 2 :
+ 
+           vector<int> vector3(5, 12);
+ 
+           This one equivalent to 
+ 
+           vector<int> vector3 = {12, 12, 12, 12, 12};
