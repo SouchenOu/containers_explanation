@@ -413,3 +413,33 @@ The C++ Standard Library vector class is a class template for sequence container
         -----------
         Functions:
         -----------
+ 
+                 assign:	Erases a vector and copies the specified elements to the empty vector.
+                 at:	Returns a reference to the element at a specified location in the vector.
+                 back:	Returns a reference to the last element of the vector.
+                 begin:	Returns a random-access iterator to the first element in the vector.
+                 capacity:	Returns the number of elements that the vector could contain without allocating more storage.
+                 cbegin:	Returns a random-access const iterator to the first element in the vector.
+                 cend:	Returns a random-access const iterator that points just beyond the end of the vector.
+                 crbegin:	Returns a const iterator to the first element in a reversed vector.
+                 crend:	Returns a const iterator to the end of a reversed vector.
+                 clear:	Erases the elements of the vector.
+                 data:	Returns a pointer to the first element in the vector.
+                 emplace:	Inserts an element constructed in place into the vector at a specified position.
+                 emplace_back:	Adds an element constructed in place to the end of the vector.
+                 empty:	Tests if the vector container is empty.
+                 end:	Returns a random-access iterator that points to the end of the vector.
+                 erase:	Removes an element or a range of elements in a vector from specified positions.
+                 front:	Returns a reference to the first element in a vector.
+                 get_allocator:	Returns an object to the allocator class used by a vector.
+                 insert:	Inserts an element or many elements into the vector at a specified position.
+                 max_size:	Returns the maximum length of the vector.
+                 pop_back:	Deletes the element at the end of the vector.
+                 push_back:	Add an element to the end of the vector.
+                 rbegin:	Returns an iterator to the first element in a reversed vector.
+                 rend:	Returns an iterator to the end of a reversed vector.
+                 reserve:	Reserves a minimum length of storage for a vector object.
+                 resize:	Specifies a new size for a vector.
+                 shrink_to_fit:	Discards excess capacity.
+                 size:	Returns the number of elements in the vector.
+                 swap:	Exchanges the elements of two vectors.
