@@ -236,3 +236,11 @@ Method 1:
  
          vector<int> num {1, 2, 3, 4, 5};
          num.at(3); // means give me the number at position 3
+ 
+ 
+ 
+ 
+         Note: Like an array, we can also use the square brackets [] to access vector elements. For example,
+
+         vector<int> num {1, 2, 3};
+         cout << num[1];  // Output: 2
