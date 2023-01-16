@@ -351,3 +351,10 @@ The C++ Standard Library vector class is a class template for sequence container
           {
               ----
           }
+ 
+      Parameters
+ 
+         Type:  The element data type to be stored in the vector
+
+         Allocator: The type that represents the stored allocator object that encapsulates details about the vector's allocation and deallocation of              memory. This argument is optional and the default value is allocator<Type>.
+
