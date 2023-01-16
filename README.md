@@ -332,3 +332,12 @@ Method 1:
 
                  // iter points to the last element of num
                  iter = num.end() - 1;
+
+ 
+ 
+ 
+ vector class:
+ -------------
+ 
+The C++ Standard Library vector class is a class template for sequence containers. A vector stores elements of a given type in a linear arrangement, and allows fast random access to any element. A vector is the preferred container for a sequence when random-access performance is at a premium.
+ 
