@@ -219,3 +219,11 @@ Method 1:
  
        vector<int>vect{1,2,3};
        vect.push_back(22);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       Note: We can also use the insert() and emplace() functions to add elements to a vector.
