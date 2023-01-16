@@ -123,3 +123,16 @@ Allocator allow us to have control over which constructors are called so the all
                      // Deallocate the memory area
                      intAlloc.deallocate(intArray, 100);
                   }
+1: Vectors:
+ ----------
+ 
+ In this tutorial, we will learn about vectors in C++ with the help of examples.
+
+In C++, vectors are used to store elements of similar data types. However, unlike arrays, the size of a vector can grow dynamically.
+
+That is, we can change the size of the vector during the execution of a program as per our requirements.
+
+Vectors are part of the C++ Standard Template Library. To use vectors, we need to include the vector header file in our program.
+ 
+ 
+         #include <vector>
