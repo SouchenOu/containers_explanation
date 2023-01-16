@@ -75,8 +75,13 @@ Allocators are objects responsible for encapsulating memory management. std::all
 Member functions associated with std::allocator() :
 
 1:address: It is used for obtaining the address of an object although it is removed in C++20.
+
 2:construct: It is used to construct an object.It is also removed in C++20.
+
 3:destroy: It is used to destruct an object in allocated storage.It is also removed in C++20.
+
 4:max_size: It returns the largest supported allocation size.It is deprecated in C++17 and removed in C++20.
+
 5:allocate: Used for allocation of memory.
+
 6:deallocate: Used for deallocation of memory.
