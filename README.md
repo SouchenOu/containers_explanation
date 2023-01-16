@@ -167,38 +167,38 @@ Method 1:
                       int main() 
                       {
 
-                         // initializer list
-                         vector<int> vector1 = {1, 2, 3, 4, 5};
+                                // initializer list
+                                   vector<int> vector1 = {1, 2, 3, 4, 5};
 
-                        // uniform initialization
-                        vector<int> vector2{6, 7, 8, 9, 10};
+                               // uniform initialization
+                                  vector<int> vector2{6, 7, 8, 9, 10};
 
-                       // method 3
-                       vector<int> vector3(5, 12);
+                              // method 3
+                                 vector<int> vector3(5, 12);
 
-                       cout << "vector1 = ";
+                                 cout << "vector1 = ";
 
-                      // ranged loop
-                      for (const int& i : vector1) 
-                      {
-                         cout << i << "  ";
-                      }
+                            // ranged loop
+                                 for (const int& i : vector1) 
+                                 {
+                                     cout << i << "  ";
+                                 }
 
-                      cout << "\nvector2 = ";
+                                cout << "\nvector2 = ";
 
-                      // ranged loop
-                      for (const int& i : vector2) 
-                      {
-                           cout << i << "  ";
-                      }
+                          // ranged loop
+                                for (const int& i : vector2) 
+                                {
+                                    cout << i << "  ";
+                                }
 
-                      cout << "\nvector3 = ";
+                                cout << "\nvector3 = ";
 
-                      // ranged loop
-                      for (int i : vector3) 
-                      {
-                          cout << i << "  ";
-                      }
+                         // ranged loop
+                               for (int i : vector3) 
+                               {
+                                   cout << i << "  ";
+                               }
 
-  return 0;
-}
+                                  return 0;
+                       }
