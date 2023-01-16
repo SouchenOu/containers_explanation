@@ -275,3 +275,19 @@ Method 1:
           // remove the last element
              prime_numbers.pop_back();
       
+1-3: C++ Vector Functions
+-------------------------
+ 
+ In C++, the vector header file provides various functions that can be used to perform different operations on a vector.
+ 
+1:size()	returns the number of elements present in the vector
+ 
+2: clear()	removes all the elements of the vector
+ 
+3: front()	returns the first element of the vector
+ 
+4: back()	returns the last element of the vector
+ 
+5: empty()	returns 1 (true) if the vector is empty
+ 
+6: capacity()	check the overall size of a vector
