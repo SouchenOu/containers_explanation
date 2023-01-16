@@ -310,10 +310,12 @@ Method 1:
             vector<double>::iterator iter2;
 
            1: Initialize Vector Iterators
+           ------------------------------
  
            We can initialize vector iterators using the begin() and end() functions.
             
-                  begin() function
+                  begin() function:
+                  ------------------
 
                   The begin() function returns an iterator that points to the first element of the vector. For example,
 
@@ -322,3 +324,11 @@ Method 1:
 
                   // iter points to num[0]
                   iter = num.begin();
+ 
+                 end() function:
+                 ---------------
+
+                 The end() function points to the theoretical element that comes after the final element of the vector. For example,
+
+                 // iter points to the last element of num
+                 iter = num.end() - 1;
