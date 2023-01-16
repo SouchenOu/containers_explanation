@@ -309,3 +309,16 @@ Method 1:
  
             vector<double>::iterator iter2;
 
+           1: Initialize Vector Iterators
+ 
+           We can initialize vector iterators using the begin() and end() functions.
+            
+                  begin() function
+
+                  The begin() function returns an iterator that points to the first element of the vector. For example,
+
+                  vector<int> num = {1, 2, 3};
+                  vector<int>::iterator iter;
+
+                  // iter points to num[0]
+                  iter = num.begin();
