@@ -137,7 +137,7 @@ Vectors are part of the C++ Standard Template Library. To use vectors, we need t
  
          #include <vector>
  
-1:1.  -C++ Vector Initialization
+1-1:  -C++ Vector Initialization
  --------------------------------
  
 Method 1:
@@ -203,7 +203,7 @@ Method 1:
                                   return 0;
                        }
 
- 1:2. - Basic Vector Operations:
+ 1-2: - Basic Vector Operations:
  -------------------------------
  
  1:Add elements
