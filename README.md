@@ -67,3 +67,16 @@ A namespace is a declarative region that provides a scope to the identifiers (th
            
            ContosoData::Func(mgr);
           
+std::allocator() in C++ :
+-----------------------
+
+Allocators are objects responsible for encapsulating memory management. std::allocator is used when you want to separate allocation and do construction in two steps. It is also used when separate destruction and deallocation is done in two steps. All the STL containers in C++ have a type parameter Allocator that is by default std::allocator. The default allocator simply uses the operators new and delete to obtain and release memory. 
+
+Member functions associated with std::allocator() :
+
+1:address: It is used for obtaining the address of an object although it is removed in C++20.
+2:construct: It is used to construct an object.It is also removed in C++20.
+3:destroy: It is used to destruct an object in allocated storage.It is also removed in C++20.
+4:max_size: It returns the largest supported allocation size.It is deprecated in C++17 and removed in C++20.
+5:allocate: Used for allocation of memory.
+6:deallocate: Used for deallocation of memory.
