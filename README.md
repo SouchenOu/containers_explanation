@@ -255,3 +255,13 @@ Method 1:
 
           // throws an exception
              cout << num.at(4);
+      
+        -----------------------------
+        3:  Change Vector Element :
+        -----------------------------
+ 
+ 
+        We can change an element of the vector using the same at() function. For example,
+   
+          num.at(1) = 9;
+          num.at(4) = 7;
