@@ -243,4 +243,14 @@ Method 1:
          Note: Like an array, we can also use the square brackets [] to access vector elements. For example,
 
          vector<int> num {1, 2, 3};
-         cout << num[1];  // Output: 2
+         cout << num[1];
+ 
+          However, the at() function is preferred over [] because at() throws an exception whenever the vector is out of bound, while [] gives a garbage           value.
+
+          vector<int> num {1, 2, 3};
+
+          // gives garbage value
+             cout << num[4];
+
+          // throws an exception
+             cout << num.at(4);
