@@ -291,3 +291,21 @@ Method 1:
 5: empty()	returns 1 (true) if the vector is empty
  
 6: capacity()	check the overall size of a vector
+ 
+ 1-4: C++ Vector Iterators:
+ ---------------------------
+ 
+ Vector iterators are used to point to the memory address of a vector element. In some ways, they act like pointers in C++.
+ 
+ We can create vector iterators with the syntax
+
+ vector<T>::iterator iteratorName;
+ 
+          // iterator for int vector
+ 
+             vector<int>::iterator iter1;
+
+         // iterator for double vector
+ 
+            vector<double>::iterator iter2;
+
