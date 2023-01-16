@@ -214,7 +214,7 @@ Method 1:
  
  4:Remove elements
  
-       Add Elements to a Vector
+       1:  Add Elements to a Vector
        -------------------------------
  
        vector<int>vect{1,2,3};
@@ -227,3 +227,12 @@ Method 1:
  
  
        Note: We can also use the insert() and emplace() functions to add elements to a vector.
+ 
+ 
+       2:   Access elements
+       --------------------
+ 
+        In C++, we use the index number to access the vector elements. Here, we use the at() function to access the element from the specified index.           For example,
+ 
+         vector<int> num {1, 2, 3, 4, 5};
+         num.at(3); // means give me the number at position 3
