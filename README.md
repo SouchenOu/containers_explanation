@@ -265,3 +265,13 @@ Method 1:
    
           num.at(1) = 9;
           num.at(4) = 7;
+ 
+        --------------------------------------
+        4: Delete Elements from C++ Vectors :
+        --------------------------------------
+ 
+         To delete a single element from a vector, we use the pop_back() function. For example,
+ 
+          // remove the last element
+             prime_numbers.pop_back();
+      
