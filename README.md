@@ -202,3 +202,14 @@ Method 1:
 
                                   return 0;
                        }
+
+ 1:2. - Basic Vector Operations:
+ -------------------------------
+ 
+ 1:Add elements
+ 
+ 2:Access elements
+ 
+ 3:Change elements
+ 
+ 4:Remove elements
