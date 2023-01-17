@@ -131,7 +131,24 @@ typedef keyword in C++ is used for aliasing existing data types, user-defined da
                   
 The typedef in C/C++ is a keyword used to assign alternative names to the existing datatypes. It is mostly used with user-defined datatypes when the naming of the predefined datatypes becomes slightly complicated to use in programs.                 
                   
-                  
+  
+ 
+ The keyword typename:
+ ---------------------
+ 
+The keyword typename was introduced to specify that the identifier that follows is a type. Consider the following example:
+
+                      template <class T>
+                      Class MyClass
+                      {
+                         typename T::SubType * ptr;
+                            ...
+                      };
+Here, typename is used to clarify that SubType is a type of class T. Thus, ptr is a pointer to the type T::SubType. Without typename, SubType would be considered a static member. Thus
+
+                        T::SubType * ptr
+ 
+would be a multiplication of value SubType of type T with ptr.
                   
 1: Vectors:
  ----------
