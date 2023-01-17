@@ -127,9 +127,9 @@ Allocator allow us to have control over which constructors are called so the all
  typedef in C++
  ---------------
                   
- typedef keyword in C++ is used for aliasing existing data types, user-defined data types, and pointers to a more meaningful name.                 
+typedef keyword in C++ is used for aliasing existing data types, user-defined data types, and pointers to a more meaningful name.                 
                   
-                  
+The typedef in C/C++ is a keyword used to assign alternative names to the existing datatypes. It is mostly used with user-defined datatypes when the naming of the predefined datatypes becomes slightly complicated to use in programs.                 
                   
                   
                   
