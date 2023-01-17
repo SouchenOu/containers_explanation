@@ -149,6 +149,13 @@ Here, typename is used to clarify that SubType is a type of class T. Thus, ptr i
                         T::SubType * ptr
  
 would be a multiplication of value SubType of type T with ptr.
+ 
+ 
+ Use of explicit keyword in C++ :
+ ------------------------------
+ 
+Explicit Keyword in C++ is used to mark constructors to not implicitly convert types in C++. It is optional for constructors that take exactly one argument and work on constructors(with a single argument) since those are the only constructors that can be used in typecasting.
+ 
                   
 1: Vectors:
  ----------
