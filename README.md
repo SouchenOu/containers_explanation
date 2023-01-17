@@ -549,3 +549,5 @@ some resources:
  https://learn.microsoft.com/en-us/cpp/standard-library/allocator-class?view=msvc-170
  
  https://learn.microsoft.com/en-us/cpp/standard-library/vector-class?view=msvc-170
+ 
+ https://www.geeksforgeeks.org/how-to-implement-our-own-vector-class-in-c/
