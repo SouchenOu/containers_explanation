@@ -262,13 +262,14 @@ Method 1:
 vector::vector (constructors)
  ----------------------------
  
-explicit vector (const allocator_type& alloc = allocator_type());
+1:    explicit vector (const allocator_type& alloc = allocator_type());
 
-explicit vector (size_type n, const value_type& val = value_type(),const allocator_type& alloc = allocator_type());
+2:    explicit vector (size_type n, const value_type& val = value_type(),const allocator_type& alloc = allocator_type());
 
-vector (const vector& x);
+3:    vector (const vector& x);
  
  
+                  
                   alloc: Allocator object,The container keeps and uses an internal copy of this allocator.
                   Member type allocator_type is the internal allocator type used by the container, defined in vector as an alias of its second template                   parameter (Alloc).
                   If allocator_type is an instantiation of the default allocator (which has no state), this is not relevant.
