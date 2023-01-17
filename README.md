@@ -123,6 +123,16 @@ Allocator allow us to have control over which constructors are called so the all
                      // Deallocate the memory area
                      intAlloc.deallocate(intArray, 100);
                   }
+                  
+ typedef in C++
+ ---------------
+                  
+ typedef keyword in C++ is used for aliasing existing data types, user-defined data types, and pointers to a more meaningful name.                 
+                  
+                  
+                  
+                  
+                  
 1: Vectors:
  ----------
  
