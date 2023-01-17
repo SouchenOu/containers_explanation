@@ -67,8 +67,6 @@ A namespace is a declarative region that provides a scope to the identifiers (th
            
            ContosoData::Func(mgr);
           
-std::allocator() in C++ :
------------------------
 
 Allocators are objects responsible for encapsulating memory management. std::allocator is used when you want to separate allocation and do construction in two steps. It is also used when separate destruction and deallocation is done in two steps. All the STL containers in C++ have a type parameter Allocator that is by default std::allocator. The default allocator simply uses the operators new and delete to obtain and release memory. 
 
@@ -97,7 +95,7 @@ So what does this mean? For example, consider the following code:
                     
 With new operator, it forces us to allocate and construct all objects, 3 integer values, at the same time. Let’s say we only want to allocate (or preserve) 3 integer size memory areas and construct these integer values later, for instance we only want to construct the first integer value. std::allocator can help us to do that.
 
-Allocators
+Allocators :
 
 The allocator is responsible for managing raw memory storage and also for constructing and destroying allocated objects in two seperated steps. Its declaration is:
 
@@ -258,7 +256,31 @@ Method 1:
 
                                   return 0;
                        }
+ 
+ 
+ 
+vector::vector (constructors)
+ ----------------------------
+ 
+explicit vector (const allocator_type& alloc = allocator_type());
 
+explicit vector (size_type n, const value_type& val = value_type(),const allocator_type& alloc = allocator_type());
+
+vector (const vector& x);
+ 
+ 
+                  alloc: Allocator object,The container keeps and uses an internal copy of this allocator.
+                  Member type allocator_type is the internal allocator type used by the container, defined in vector as an alias of its second template                   parameter (Alloc).
+                  If allocator_type is an instantiation of the default allocator (which has no state), this is not relevant.
+                  
+                  n: Initial container size (i.e., the number of elements in the container at construction). 
+                  Member type size_type is an unsigned integral type.
+ 
+                  val: Value to fill the container with. Each of the n elements in the container will be initialized to a copy of this value.
+                  Member type value_type is the type of the elements in the container, defined in vector as an alias of its first template parameter                       (T).
+
+
+ 
  1-2: - Basic Vector Operations:
  -------------------------------
  
