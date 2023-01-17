@@ -156,7 +156,29 @@ would be a multiplication of value SubType of type T with ptr.
  
 Explicit Keyword in C++ is used to mark constructors to not implicitly convert types in C++. It is optional for constructors that take exactly one argument and work on constructors(with a single argument) since those are the only constructors that can be used in typecasting.
  
-                  
+
+                 class String 
+                 {
+                     public:
+                         String(int n); // allocate n bytes to the String object
+                         String(const char *p); // initializes object with char *p
+                 };
+Now, if you try:
+
+                      String mystring = 'x';
+ 
+The character 'x' will be implicitly converted to int and then the String(int) constructor will be called. But, this is not what the user might have intended. So, to prevent such conditions, we shall define the constructor as explicit:
+
+                 class String 
+                 {
+                    public:
+                         explicit String (int n); //allocate n bytes
+                         String(const char *p); // initialize sobject with string p
+                 };
+ 
+ 
+ 
+ 
 1: Vectors:
  ----------
  
@@ -515,3 +537,15 @@ The C++ Standard Library vector class is a class template for sequence container
                  ----
                  swap:	Exchanges the elements of two vectors.
                  ----
+ 
+ 
+ 
+some resources:
+ -------------
+ 
+ 
+ https://cplusplus.com/reference/vector/vector/vector/
+ 
+ https://learn.microsoft.com/en-us/cpp/standard-library/allocator-class?view=msvc-170
+ 
+ https://learn.microsoft.com/en-us/cpp/standard-library/vector-class?view=msvc-170
