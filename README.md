@@ -41,8 +41,7 @@ The container manages the storage space for its elements and provides member fun
 16:priority_queue: Adapts a container to provide priority queue (class template). 
 
 
-
-std::allocator() in C++
+namespace in C++
 -----------------------
 
 A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries. 
@@ -66,7 +65,10 @@ A namespace is a declarative region that provides a scope to the identifiers (th
            mgr.DoSomething();
            
            ContosoData::Func(mgr);
-          
+    
+    
+std::allocator() in C++
+-----------------------
 
 Allocators are objects responsible for encapsulating memory management. std::allocator is used when you want to separate allocation and do construction in two steps. It is also used when separate destruction and deallocation is done in two steps. All the STL containers in C++ have a type parameter Allocator that is by default std::allocator. The default allocator simply uses the operators new and delete to obtain and release memory. 
 
