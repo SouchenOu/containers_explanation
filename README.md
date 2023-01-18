@@ -582,3 +582,5 @@ some resources:
  https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.dinkum_en_cpp/lib_cont.html
  
  https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.dinkum_en_cpp/vector.html#vector
+ 
+ https://learn.microsoft.com/en-us/cpp/standard-library/allocator-traits-class?view=msvc-170
