@@ -580,3 +580,5 @@ some resources:
  https://codereview.stackexchange.com/questions/255149/stdvector-allocator-aware-implementation
  
  https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.dinkum_en_cpp/lib_cont.html
+ 
+ https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.dinkum_en_cpp/vector.html#vector
