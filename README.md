@@ -622,6 +622,9 @@ The elements in the array are not destroyed by a call to this member function.
 
 In the default allocator, the block of storage is at some point deallocated using ::operator delete (either during the function call, or later).
 
+ 5 - distance() :
+ 
+The distance() function in C++ helps find the distance between two iterators. In other words, we can use this function to calculate the number of elements present between the two iterators. This function is available in the <iterator> header file.
 
 
 
