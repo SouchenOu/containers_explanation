@@ -37,6 +37,20 @@ Similar to function templates, we can use class templates to create a single cla
 
 In the above declaration, T is the template argument which is a placeholder for the data type used, and class is a keyword.
 
+
+Once we've declared and defined a class template, we can create its objects in other classes or functions (such as the main() function) with the following syntax
+
+className<dataType> classObject;
+  
+For example,
+
+className<int> classObject;
+  
+className<float> classObject;
+  
+className<string> classObject;
+
+
 Containers in C++ STL (Standard Template Library)
 -------------------------------------------------
 
