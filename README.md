@@ -608,6 +608,21 @@ Attempts to allocate a block of storage with a size large enough to contain n el
  
 In the standard default allocator, the block of storage is allocated using ::operator new one or more times, and throws bad_alloc if it cannot allocate the total amount of storage requested.
 
+
+
+
+4 - deallocate() :
+
+
+                      void deallocate (pointer p, size_type n);
+
+Releases a block of storage previously allocated with member allocate and not yet released.
+
+The elements in the array are not destroyed by a call to this member function.
+
+In the default allocator, the block of storage is at some point deallocated using ::operator delete (either during the function call, or later).
+
+
 some resources:
  -------------
  
