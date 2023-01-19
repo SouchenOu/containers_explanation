@@ -593,7 +593,21 @@ Notice that this function changes the actual content of the container by inserti
  
 this function provides the automatic fall back to placement new, the member function construct() is an optional Allocator requirement since C++11. 
  
+The function constructs an object of member type value_type (an alias of allocator's template parameter) using its copy constructor to initialize its value to a copy of val, as if the following code was used:
+new ((void*)p) value_type (val);
  
+ 
+ 
+3 - allocate() :
+ 
+ 
+                       pointer allocate (size_type n, allocator<void>::const_pointer hint=0);
+
+ 
+Attempts to allocate a block of storage with a size large enough to contain n elements of member type value_type (an alias of the allocator's template parameter), and returns a pointer to the first element.
+ 
+In the standard default allocator, the block of storage is allocated using ::operator new one or more times, and throws bad_alloc if it cannot allocate the total amount of storage requested.
+
 some resources:
  -------------
  
