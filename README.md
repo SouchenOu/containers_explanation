@@ -567,9 +567,31 @@ The C++ Standard Library vector class is a class template for sequence container
  Some of functions  i used it to implement vector functions: 
  -----------------------------------------------------------
  
- destroy(): In C++, the operator delete destroys an object by calling its destructor, and then deallocates the memory where that object was stored. Occasionally, however, it is useful to separate those two operations. [1] Destroy calls an object's destructor without deallocating the memory where the object was stored.
+ 1 - destroy(): 
+ 
+In C++, the operator delete destroys an object by calling its destructor, and then deallocates the memory where that object was stored. Occasionally, however, it is useful to separate those two operations. [1] Destroy calls an object's destructor without deallocating the memory where the object was stored.
+ 
+ we use it to Change size
+ 
+                           void resize (size_type n, value_type val = value_type());
+
+ 
+Resizes the container so that it contains n elements.
+
+If n is smaller than the current container size, the content is reduced to its first n elements, removing those beyond (and destroying them).
+
+If n is greater than the current container size, the content is expanded by inserting at the end as many elements as needed to reach a size of n. If val is specified, the new elements are initialized as copies of val, otherwise, they are value-initialized.
+
+If n is also greater than the current container capacity, an automatic reallocation of the allocated storage space takes place.
+
+Notice that this function changes the actual content of the container by inserting or erasing elements from it.
+ 
+2 - construct():
  
  
+                         void construct( pointer p, const_reference val );
+ 
+this function provides the automatic fall back to placement new, the member function construct() is an optional Allocator requirement since C++11. 
  
  
 some resources:
