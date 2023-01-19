@@ -1,5 +1,42 @@
 # containers_explination
 
+
+
+
+
+
+
+
+
+
+To remember:
+-----------
+
+
+There are two ways we can implement templates:
+
+Function Templates
+Class Templates
+
+Similar to function templates, we can use class templates to create a single class to work with different data types.
+
+  Class Template Declaration:
+  
+  A class template starts with the keyword template followed by template parameter(s) inside <> which is followed by the class declaration.
+
+               template <class T>
+               class className 
+               {
+                 private:
+                      T var;
+                      ... .. ...
+                 public:
+                      T functionName(T arg);
+                       ... .. ...
+              };
+
+In the above declaration, T is the template argument which is a placeholder for the data type used, and class is a keyword.
+
 Containers in C++ STL (Standard Template Library)
 -------------------------------------------------
 
