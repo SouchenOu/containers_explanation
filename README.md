@@ -623,6 +623,37 @@ The elements in the array are not destroyed by a call to this member function.
 In the default allocator, the block of storage is at some point deallocated using ::operator delete (either during the function call, or later).
 
 
+
+
+
+
+
+The difference between size , max_size and capacity :
+-----------------------------------------------------
+
+
+----size:
+
+Returns the number of elements in the vector container.
+
+This is the number of actual objects held in the vector, which is not necessarily equal to its storage capacity. Vectors automatically reallocate their storage space when needed or when requested with member resize. To retrieve the current storage capacity of a vector you can call to its member capacity.
+
+----capacity:
+
+Returns the size of the allocated storage space for the elements of the vector container.
+
+Notice that, in vectors, the capacity is not necessarily equal to the number of elements that conform the underlying vector content (this can be obtained with member vector::size), but the capacity of the actual allocated space, which is either equal or greater than the content size.
+
+Notice also that this capacity does not suppose a limit to the size of the vector. If more space is required to accomodate new elements in the vector, the capacity is automatically expanded, or can even be explicitly modified by calling member vector::reserve.
+
+The real limit on the size a vector object can reach is returned by member vector::max_size.
+
+----max_size:
+
+Returns the maximum number of elements that the vector container can hold.
+
+This is not the amount of storage space currently allocated to the vector (this can be obtained with member vector::capacity), but the maximum potential size the vector could reach due to system or library implementation limitations.
+
 some resources:
  -------------
  
