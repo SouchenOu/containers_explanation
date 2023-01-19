@@ -564,6 +564,13 @@ The C++ Standard Library vector class is a class template for sequence container
                  ----
  
  
+ Some of functions  i used it to implement vector functions: 
+ -----------------------------------------------------------
+ 
+ destroy(): In C++, the operator delete destroys an object by calling its destructor, and then deallocates the memory where that object was stored. Occasionally, however, it is useful to separate those two operations. [1] Destroy calls an object's destructor without deallocating the memory where the object was stored.
+ 
+ 
+ 
  
 some resources:
  -------------
