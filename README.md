@@ -733,6 +733,8 @@ Every path from a node (including root) to any of its descendants NULL nodes has
 
  Every leaf (e.i. NULL node) must be colored BLACK.
 
+  <img width="703" alt="Screen Shot 2023-01-21 at 2 49 37 PM" src="https://user-images.githubusercontent.com/87101785/213869901-557ec6ee-473c-4b06-a6bf-87eccb31a3a9.png">
+
 
 
 some resources:
