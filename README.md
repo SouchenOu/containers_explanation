@@ -708,6 +708,33 @@ Returns the maximum number of elements that the vector container can hold.
 
 This is not the amount of storage space currently allocated to the vector (this can be obtained with member vector::capacity), but the maximum potential size the vector could reach due to system or library implementation limitations.
 
+
+
+What is red_black_tree :
+------------------------
+
+In computer science, a red–black tree is a kind of self-balancing binary search tree. Each node stores an extra bit representing "color" ("red" or "black"), used to ensure that the tree remains balanced during insertions and deletions.
+
+Introduction:
+
+When it comes to searching and sorting data, one of the most fundamental data structures is the binary search tree. However, the performance of a binary search tree is highly dependent on its shape, and in the worst case, it can degenerate into a linear structure with a time complexity of O(n). This is where Red Black Trees come in, they are a type of balanced binary search tree that use a specific set of rules to ensure that the tree is always balanced. This balance guarantees that the time complexity for operations such as insertion, deletion, and searching is always O(log n), regardless of the initial shape of the tree.
+
+Red Black Trees are self-balancing, meaning that the tree adjusts itself automatically after each insertion or deletion operation. It uses a simple but powerful mechanism to maintain balance, by coloring each node in the tree either red or black. 
+
+Rules That Every Red-Black Tree Follows: 
+
+Every node has a color either red or black.
+
+The root of the tree is always black.
+
+There are no two adjacent red nodes (A red node cannot have a red parent or red child).
+
+Every path from a node (including root) to any of its descendants NULL nodes has the same number of black nodes.
+
+ Every leaf (e.i. NULL node) must be colored BLACK.
+
+
+
 some resources:
  -------------
  
