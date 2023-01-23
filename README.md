@@ -51,6 +51,23 @@ className<float> classObject;
 className<string> classObject;
 
 
+
+
+What is a data structures:
+--------------------------
+
+
+A data structure is not only used for organizing the data. It is also used for processing, retrieving, and storing data. There are different basic and advanced types of data structures that are used in almost every program or software system that has been developed. So we must have good knowledge about data structures. 
+
+
+
+<img width="703" alt="Screen Shot 2023-01-23 at 1 59 03 PM" src="https://user-images.githubusercontent.com/87101785/214045796-98d957b9-9532-4643-8e59-b0d5ed2a3543.png">
+
+
+
+
+
+
 Containers in C++ STL (Standard Template Library)
 -------------------------------------------------
 
