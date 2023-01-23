@@ -752,6 +752,33 @@ Every path from a node (including root) to any of its descendants NULL nodes has
 
   <img width="703" alt="Screen Shot 2023-01-21 at 2 49 37 PM" src="https://user-images.githubusercontent.com/87101785/213869901-557ec6ee-473c-4b06-a6bf-87eccb31a3a9.png">
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Some informations about red black tree :
+  ---------------------------------------
+  
+  -All the left node should be less than the Root node.
+  
+  -All the right node should be greater than the root node.
+  
+  -The left node should be less than the previous node.
+  
+  -The right node should be greater than the previous node.
+  
+  
+  -In binary search tree (The searching, deletion , insertion is going to take order f log in time O(log 2 n) in average case but in worst case is it O (n))
+
+  so searching about  a data using red-black-tree it is going to take less time... that is why we use red-black-tree
+  
+  
 
 
 some resources:
