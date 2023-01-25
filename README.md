@@ -841,3 +841,9 @@ https://en.wikipedia.org/wiki/Sentinel_node
 rbt : https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
 
 https://en.wikipedia.org/wiki/Red%E2%80%93black_tree#Insertion
+  
+  
+ STL Implementations:
+  
+  
+  https://azrael.digipen.edu/~mmead/www/Courses/CS270/STLImplementations.html
