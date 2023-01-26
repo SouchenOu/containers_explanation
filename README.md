@@ -4,19 +4,29 @@
 
 
 
-
-
-
-
-
 To remember:
 -----------
+
+What is template:
+-----------------
+
+A function template in c++ is a single function template that works with multiple data types simultaneously, but a standard function works only with one set of data types.
+
+                          C++ Function Template Syntax
+
+                          template<class T>
+                          
+                          T func-name(parameter list)
+                          {
+                              //body of the function
+                          }
 
 
 There are two ways we can implement templates:
 
-Function Templates
-Class Templates
+1: Function Templates
+
+2: Class Templates
 
 Similar to function templates, we can use class templates to create a single class to work with different data types.
 
@@ -25,6 +35,7 @@ Similar to function templates, we can use class templates to create a single cla
   A class template starts with the keyword template followed by template parameter(s) inside <> which is followed by the class declaration.
 
                template <class T>
+               
                class className 
                {
                  private:
