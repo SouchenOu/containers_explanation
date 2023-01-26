@@ -738,6 +738,41 @@ This is not the amount of storage space currently allocated to the vector (this 
 
 
 
+
+
+class template <iterator> std::iterator :
+----------------------------------------
+
+An iterator is any object that, pointing to some element in a range of elements (such as an array or a container), has the ability to iterate through the elements of that range using a set of operators (with at least the increment (++) and dereference (*) operators).\
+
+
+Iterator operations:
+
+
+advance :	Advance iterator (function template).
+
+distance :	Return distance between iterators (function template)
+
+begin :	Iterator to beginning (function template).
+
+end :	Iterator to end (function template).
+
+prev:	Get iterator to previous element (function template).
+
+next:	Get iterator to next element (function template).
+
+
+Iterator generators:
+
+back_inserter:	Construct back insert iterator (function template)
+
+front_inserter:	Constructs front insert iterator (function template)
+
+inserter:	Construct insert iterator (function template)
+
+make_move_iterator:	Construct move it
+
+
 What is red_black_tree :
 ------------------------
 
