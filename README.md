@@ -902,3 +902,6 @@ https://en.wikipedia.org/wiki/Red%E2%80%93black_tree#Insertion
   
   
   https://www.codeproject.com/Articles/36530/An-Introduction-to-Iterator-Traits
+  
+  
+  https://www.youtube.com/watch?v=F9eDv-YIOQ0
