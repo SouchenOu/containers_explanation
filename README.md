@@ -64,6 +64,37 @@ className<string> classObject;
 
 
 
+
+Operators that can be overloaded
+---------------------------------
+
+Binary Arithmetic     ->     +, -, *, /, %
+
+Unary Arithmetic     ->     +, -, ++, —
+
+Assignment     ->     =, +=,*=, /=,-=, %=
+
+Bit- wise      ->     & , | , << , >> , ~ , ^
+
+De-referencing     ->     (->)
+
+Dynamic memory allocation and De-allocation     ->     New, delete 
+
+Subscript     ->     [ ]
+
+Function call     ->     ()
+
+Logical      ->     &,  | |, !
+
+Relational     ->     >, < , = =, <=, >=
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 What is a data structures:
 --------------------------
 
