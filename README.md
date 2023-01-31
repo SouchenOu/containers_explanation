@@ -771,6 +771,40 @@ This is not the amount of storage space currently allocated to the vector (this 
 
 
 
+
+
+Integral Types
+---------------
+
+In C, an integral type can declare:
+
+Integer values, signed or unsigned
+
+Boolean values, where 0 is equivalent to false and any nonzero number is equivalent to true
+
+Characters, which are automatically converted to an integer value by the compiler
+
+Members of an enumerated type, which are interpreted as an integer by the compiler
+
+Bit fields
+
+The integral types are:
+
+char , signed char , unsigned char -8 bits
+
+short int , signed short int , and unsigned short int -16 bits
+
+int , signed int , and unsigned int -32 bits
+
+long int , signed long int , and unsigned long int -32 bits (OpenVMS)
+
+long int , signed long int , and unsigned long int -64 bits (Digital UNIX)
+
+signed __int64 (Alpha) and unsigned __int64 (Alpha)-64 bits
+
+enum -32 bits
+
+
 class template <iterator> std::iterator :
 ----------------------------------------
 
@@ -805,8 +839,9 @@ make_move_iterator:	Construct move it
 
   
   
- std::iterator_traits
- --------------------
+
+
+
 
 What is red_black_tree :
 ------------------------
