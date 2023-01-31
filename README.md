@@ -890,6 +890,9 @@ pair :
 
 The C++ pair container is a basic header container that holds two data elements or objects. The order is set, and it refers to the first element as "first." It refers to the second element as "second" (first, second).
   
+  
+  https://www.geeksforgeeks.org/pair-in-cpp-stl/
+  
    ----------------- ----------------- ----------------- ----------------- ----------------- ----------------- ----------------- -----------------
 
 
