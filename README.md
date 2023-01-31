@@ -870,6 +870,27 @@ make_move_iterator:	Construct move it
 
   
   
+  
+  
+  ----------------- ----------------- ----------------- ----------------- ----------------- -----------------
+  
+  enable_if() :
+  -------------
+  
+  
+  Le trait enable_if est une technique permettant de contrôler l'application de SFINAE.
+  
+Sa signature est enable_if<bool,T=void> ce qui signifie qu'il est défini sur la base d'une condition statique de d'un type (qui sera void par défaut)
+L'expression std::enable_if<true,T>::type équivaut à T
+L'expression std::enable_if<false,T>::type est indéfinie (le type résultant est incomplet), ce qui peut (selon les circonstances) éliminer un template de ceux examinés pour la génération du code ou tout simplement bloquer la compilation
+  
+  
+pair :
+-----
+
+The C++ pair container is a basic header container that holds two data elements or objects. The order is set, and it refers to the first element as "first." It refers to the second element as "second" (first, second).
+  
+   ----------------- ----------------- ----------------- ----------------- ----------------- ----------------- ----------------- -----------------
 
 
 
