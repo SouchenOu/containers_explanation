@@ -775,8 +775,39 @@ This is not the amount of storage space currently allocated to the vector (this 
 
 Integral Types
 ---------------
+  
+  
+  
+Fundamental types in C++ are divided into three categories: integral, floating point, and void. Integral types are capable of handling whole numbers. Floating point types are capable of specifying values that may have fractional parts. The void type describes an empty set of values.
 
-In C, an integral type can declare:
+The category integral includes the following datatypes -
+
+char
+
+bool
+
+short
+
+int
+
+long
+
+long long
+
+wchar_t, __wchar_t
+
+  
+The category floating point includes the following datatypes -
+  
+
+float
+
+double
+
+long double
+  
+
+In C, an integral type can declare :
 
 Integer values, signed or unsigned
 
