@@ -872,7 +872,8 @@ make_move_iterator:	Construct move it
   
   
   
-  ----------------- ----------------- ----------------- ----------------- ----------------- -----------------
+  ----------------- ----------------- Additional functions :----------------- ----------------- ----------------- -----------------
+  ------------------------------------------------------------------------------------------------------------------
   
   enable_if() :
   -------------
@@ -896,7 +897,8 @@ A pair is a term that is used to combine two values that may or may not be of th
  
  
  
- 
+          example 1:
+          ---------
  
           int main()
 
@@ -915,7 +917,27 @@ A pair is a term that is used to combine two values that may or may not be of th
                return 0;
 
           }
+  
+        example 2:
+        ---------
+  
+  
+
+          int main()
+
+          {
+
+                pair<string, double> PAIR2("GeeksForGeeks", 1.23);
+
+                cout << PAIR2.first << " ";
+
+                cout << PAIR2.second << endl; 
+
+                return 0;
+
+          }
           
+  
   https://www.geeksforgeeks.org/pair-in-cpp-stl/
   
  ----------------- ----------------- ----------------- ----------------- ----------------- ----------------- ----------------- -----------------
