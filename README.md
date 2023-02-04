@@ -944,6 +944,22 @@ A pair is a term that is used to combine two values that may or may not be of th
 
 
 
+binary search tree
+-------------------
+
+
+
+
+In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's right subtree and less than the ones in its left subtree.
+
+https://www.youtube.com/watch?v=cySVml6e_Fc
+
+<img width="182" alt="Screen Shot 2023-02-04 at 1 41 22 PM" src="https://user-images.githubusercontent.com/87101785/216768260-b370b59b-483d-4d8a-ae41-3e8bacb2c077.png">
+
+
+<img width="636" alt="Screen Shot 2023-02-04 at 1 49 24 PM" src="https://user-images.githubusercontent.com/87101785/216768597-872d0319-5ab8-4c99-b6d7-ed762aaa6384.png">
+
+
 
 What is red_black_tree :
 ------------------------
@@ -956,19 +972,25 @@ When it comes to searching and sorting data, one of the most fundamental data st
 
 Red Black Trees are self-balancing, meaning that the tree adjusts itself automatically after each insertion or deletion operation. It uses a simple but powerful mechanism to maintain balance, by coloring each node in the tree either red or black. 
 
+-->Red black tree it is a binary search tree
+
+
+
 Rules That Every Red-Black Tree Follows: 
 
-Every node has a color either red or black.
+1:Every node has a color either red or black.
 
-The root of the tree is always black.
+2:The root of the tree is always black.
 
-There are no two adjacent red nodes (A red node cannot have a red parent or red child).
+3:There are no two adjacent red nodes (A red node cannot have a red parent or red child).
 
-Every path from a node (including root) to any of its descendants NULL nodes has the same number of black nodes.
+4:Every path from a node (including root) to any of its descendants NULL nodes has the same number of black nodes.
 
- Every leaf (e.i. NULL node) must be colored BLACK.
+5:Every leaf (e.i. NULL node) must be colored BLACK.
 
   <img width="703" alt="Screen Shot 2023-01-21 at 2 49 37 PM" src="https://user-images.githubusercontent.com/87101785/213869901-557ec6ee-473c-4b06-a6bf-87eccb31a3a9.png">
+  
+  
 
   
   
@@ -999,6 +1021,14 @@ Every path from a node (including root) to any of its descendants NULL nodes has
 
   
 In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree. The time complexity of operations on the binary search tree is directly proportional to the height of the tree.
+
+
+
+
+
+
+
+
 
 
 some resources:
