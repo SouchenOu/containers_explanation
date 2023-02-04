@@ -1098,9 +1098,7 @@ Red Black Trees are self-balancing, meaning that the tree adjusts itself automat
 
 -->Red black tree it is a binary search tree
 
-
-
-Rules That Every Red-Black Tree Follows: 
+💬 Rules That Every Red-Black Tree Follows: 
 
 1:Every node has a color either red or black.
 
@@ -1114,13 +1112,14 @@ Rules That Every Red-Black Tree Follows:
 
   
   
+  
   --> it is a self balancing BST (binary search tree)->means it balanced it self
   
   --> every node is red or black 
   
-  --> root is alwayse black 
+  --> root is alwase black 
   
-  --> every leaf which is NIL is black (every node that dont have a child is black)
+  --> every leaf which is NIL is black (that node doesnt appear it is the shild of the last each node in our tree)
   
   --> if node is red then its children are black 
   
@@ -1153,7 +1152,7 @@ Rules That Every Red-Black Tree Follows:
   
   
   
-  Some informations about red black tree :
+  Some informations about binary serch tree (BST) :
   ---------------------------------------
   
   -All the left node should be less than the Root node.
@@ -1178,7 +1177,7 @@ In computer science, a binary search tree (BST), also called an ordered or sorte
 
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
