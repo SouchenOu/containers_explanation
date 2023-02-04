@@ -1075,11 +1075,21 @@ so we will replace node 11 by each number ?!!
   and to find wich one the left and the right of that root we use inorder .
   
   
+  
 What is red_black_tree :
 ------------------------
 
+  we know that trees is a Data structure (data structure is a way for orgnising the data (we can insert, update data or delete data ... in a less time ))
+ 
+  in binary search tree (insertion or deletion is going to take o(log2n) log n time in average case ) --> time complexity = o(log2n) not o(n)
+  that why our tree should be a balance tree (if the tree is balance the time complicity will be less )
+  
+  --->AVL trees  is balanced than red black trees but red black trees guaranties that the time complicity will be less 
+  
+  
 In computer science, a red–black tree is a kind of self-balancing binary search tree. Each node stores an extra bit representing "color" ("red" or "black"), used to ensure that the tree remains balanced during insertions and deletions.
 
+  
 Introduction:
 
 When it comes to searching and sorting data, one of the most fundamental data structures is the binary search tree. However, the performance of a binary search tree is highly dependent on its shape, and in the worst case, it can degenerate into a linear structure with a time complexity of O(n). This is where Red Black Trees come in, they are a type of balanced binary search tree that use a specific set of rules to ensure that the tree is always balanced. This balance guarantees that the time complexity for operations such as insertion, deletion, and searching is always O(log n), regardless of the initial shape of the tree.
@@ -1102,6 +1112,29 @@ Rules That Every Red-Black Tree Follows:
 
 5:Every leaf (e.i. NULL node) must be colored BLACK.
 
+  
+  
+  --> it is a self balancing BST (binary search tree)->means it balanced it self
+  
+  --> every node is red or black 
+  
+  --> root is alwayse black 
+  
+  --> every leaf which is NIL is black (every node that dont have a child is black)
+  
+  --> if node is red then its children are black 
+  
+  --> each path to NULL node should  have the same number of black nodes .
+  
+  
+  <img width="304" alt="Screen Shot 2023-02-04 at 6 50 23 PM" src="https://user-images.githubusercontent.com/87101785/216782081-bd28d3da-8622-4968-9f57-cb6cf5c2c514.png">
+  
+
+  
+  
+  
+  
+  
   <img width="703" alt="Screen Shot 2023-01-21 at 2 49 37 PM" src="https://user-images.githubusercontent.com/87101785/213869901-557ec6ee-473c-4b06-a6bf-87eccb31a3a9.png">
   
   
