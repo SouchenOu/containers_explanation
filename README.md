@@ -942,6 +942,19 @@ A pair is a term that is used to combine two values that may or may not be of th
   
  ----------------- ----------------- ----------------- ----------------- ----------------- ----------------- ----------------- -----------------
 
+  AVL tree :
+  ---------
+  
+  AVL Tree can be defined as height balanced binary search tree in which each node is associated with a balance factor which is calculated by subtracting the height of its right sub-tree from that of its left sub-tree.
+  
+  1: It is a binary search tree (BST) (one more important  point in binary search tree we cant find duplicated element)
+  
+  2:For each node in the tree the difference between the hight of left subtree and the height of left subtree is (-1 or 0 or 1)
+  
+  for each node balance factor most be calculater
+  
+  
+  
 
 
 1: binary search tree
@@ -1053,6 +1066,14 @@ so we will replace node 11 by each number ?!!
   
   
   so here by using postorder we can find the root element that is node 20 (the last one)
+  
+  
+  
+  
+  Here to find the root we use postorder.
+  
+  and to find wich one the left and the right of that root we use inorder .
+  
   
 What is red_black_tree :
 ------------------------
