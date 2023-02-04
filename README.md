@@ -1045,7 +1045,9 @@ Rules That Every Red-Black Tree Follows:
   
   
 
+  so in order of this tree is (inorder alwase be insorted order)
   
+  (4,5,6,8,10,11,17,19,31,43,49)
   
   
   
