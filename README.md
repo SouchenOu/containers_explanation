@@ -957,10 +957,63 @@ https://www.youtube.com/watch?v=cySVml6e_Fc
 <img width="182" alt="Screen Shot 2023-02-04 at 1 41 22 PM" src="https://user-images.githubusercontent.com/87101785/216768260-b370b59b-483d-4d8a-ae41-3e8bacb2c077.png">
 
 
+  
+Insert binary search tree:
+  
 <img width="636" alt="Screen Shot 2023-02-04 at 1 49 24 PM" src="https://user-images.githubusercontent.com/87101785/216768597-872d0319-5ab8-4c99-b6d7-ed762aaa6384.png">
 
+How to delete data from BST :
+  
+ In this case we can have tree situations :
+  
+  1: maybe that node have 0 children !
+  
+  2: Maybe that node can have one child !
+  
+  3: Maybe that node you want to delete have 2 children !
+  
+  
+  
+  1--for first situation --> simply we delete that node and free it 
+  
+  2--for second situation --> so that node will be replace with his children maybe the left one or the right one
+  
+  <img width="351" alt="Screen Shot 2023-02-04 at 2 42 37 PM" src="https://user-images.githubusercontent.com/87101785/216770926-4ddd5225-2273-443d-9364-e1fa5d775824.png">
+  
+  As you see here node 4 willl be replace by node 5
+  
+  3--for the last situation --> suppose we want to delete node 11 
+  
+  <img width="261" alt="Screen Shot 2023-02-04 at 2 44 02 PM" src="https://user-images.githubusercontent.com/87101785/216770994-ca520845-1de1-4fb2-ab95-8333a66b8535.png">
 
+so we will replace node 11 by each number ?!!
+  
+  --here we have 2 situations:
+  
+  1: we can replace the node being deleted with its inorder predecesser
+  
+  2: we can replace the node being deleted with its inorder successer.
+  
+  
+🌱 first situation:
+  
+  inorder predecesser would be : the largest element from the left subtree that node you want to delete (in this example the largest element in the left subtree is node 10)
 
+  
+  <img width="261" alt="Screen Shot 2023-02-04 at 2 57 35 PM" src="https://user-images.githubusercontent.com/87101785/216771604-22d9aead-3188-4edf-b527-0061bb617d5e.png">
+
+  ---->so we can replace node 11 with node 10
+  
+  <img width="487" alt="Screen Shot 2023-02-04 at 3 00 27 PM" src="https://user-images.githubusercontent.com/87101785/216771716-cc4471f9-e855-4d9b-8569-10c60018b9ae.png">
+
+ 
+ 🌱 second situation:
+  
+  inorder successor would be : the smallest element from the right subtree of that node (in this example the smallest element is node 17)
+  
+  <img width="555" alt="Screen Shot 2023-02-04 at 3 04 38 PM" src="https://user-images.githubusercontent.com/87101785/216771951-d7ce7016-08c0-4d42-ad6b-715325eab5b1.png">
+
+  
 What is red_black_tree :
 ------------------------
 
