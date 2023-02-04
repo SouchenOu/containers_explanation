@@ -944,7 +944,7 @@ A pair is a term that is used to combine two values that may or may not be of th
 
 
 
-binary search tree
+1: binary search tree
 -------------------
 
 
@@ -958,7 +958,8 @@ https://www.youtube.com/watch?v=cySVml6e_Fc
 
 
   
-Insert binary search tree:
+1.1 Insert binary search tree:
+------------------------------
   
 <img width="636" alt="Screen Shot 2023-02-04 at 1 49 24 PM" src="https://user-images.githubusercontent.com/87101785/216768597-872d0319-5ab8-4c99-b6d7-ed762aaa6384.png">
 
@@ -1014,6 +1015,45 @@ so we will replace node 11 by each number ?!!
   <img width="555" alt="Screen Shot 2023-02-04 at 3 04 38 PM" src="https://user-images.githubusercontent.com/87101785/216771951-d7ce7016-08c0-4d42-ad6b-715325eab5b1.png">
 
   
+  
+  
+  
+ 1.2 How to construct a binary search tree when only preorder is given : 
+ ------------------------------------------------------------------------------------
+  
+  preorder : 20,16,5,18,17,19,60,85,70 (Root left right). --> here the first on is the root (node 20)
+  
+  Inorder : 5,16,17,18,19,20,60,70,85 (Left root right) --> here the middle one is the root (node 20)
+  
+  
+  <img width="599" alt="Screen Shot 2023-02-04 at 3 34 11 PM" src="https://user-images.githubusercontent.com/87101785/216773156-e6408138-684b-4751-9c26-baeac9147904.png">
+
+  
+  
+  <img width="722" alt="Screen Shot 2023-02-04 at 3 43 21 PM" src="https://user-images.githubusercontent.com/87101785/216773559-3591c892-32c6-404f-8ca9-3b5d899156d4.png">
+
+  by using inorder we divise the number to dicide which the number will be in the right and which one will be in the left
+  
+  by using preorder wich one is the root of each subtree
+  
+  
+    so this is our binary search tree ;
+
+  <img width="1208" alt="Screen Shot 2023-02-04 at 3 48 34 PM" src="https://user-images.githubusercontent.com/87101785/216773794-4c34f4ca-e5dc-476d-b14f-571c5f3d7c77.png">
+
+  
+1.3:   How to construct a binary search tree when only postorder is given :
+----------------------------------------------------------------------------
+  
+  
+  
+  postorder--> 5,17,19,18,16,70,85,60,20 (Left ,Right, root)
+  
+  so firstly we should write inorder tree-> 5,16,17,18,19,20,60,70,85 (Left, Right, Root)(from the smallest to the greatest)
+  
+  
+  so here by using postorder we can find the root element that is node 20 (the last one)
+  
 What is red_black_tree :
 ------------------------
 
@@ -1045,9 +1085,11 @@ Rules That Every Red-Black Tree Follows:
   
   
 
-  so in order of this tree is (inorder alwase be insorted order)
+ 
   
-  (4,5,6,8,10,11,17,19,31,43,49)
+  
+  
+  
   
   
   
