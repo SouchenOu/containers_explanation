@@ -918,6 +918,21 @@ Return Value: The function returns an iterator pointing to the immediate next el
   
   
   
+  List of all Functions of Map :
+  
+  
+  
+  <img width="689" alt="Screen Shot 2023-02-07 at 4 43 08 PM" src="https://user-images.githubusercontent.com/87101785/217292149-5fe7fc80-8841-4158-a26f-9f732b7ecc45.png">
+
+  <img width="710" alt="Screen Shot 2023-02-07 at 4 43 17 PM" src="https://user-images.githubusercontent.com/87101785/217292196-a043e2b3-6a56-4736-b128-08a8f6c31589.png">
+
+  
+  <img width="692" alt="Screen Shot 2023-02-07 at 4 44 09 PM" src="https://user-images.githubusercontent.com/87101785/217292382-cff6ce2e-9210-4b4f-bad9-0658858e27e7.png">
+
+  
+  
+  
+  
   ----------------- ----------------- Additional functions :----------------- ----------------- ----------------- -----------------
   ------------------------------------------------------------------------------------------------------------------
   
