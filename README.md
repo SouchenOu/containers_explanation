@@ -872,6 +872,48 @@ make_move_iterator:	Construct move it
   2: Map:
   -------
   
+  Maps are associative containers that store elements in a mapped fashion. Each element has a key value and a mapped value. No two mapped values can have the same key values.
+
+Some basic functions associated with Map: 
+
+begin() – Returns an iterator to the first element in the map.
+end() – Returns an iterator to the theoretical element that follows the last element in the map.
+size() – Returns the number of elements in the map.
+max_size() – Returns the maximum number of elements that the map can hold.
+empty() – Returns whether the map is empty.
+pair insert(keyvalue, mapvalue) – Adds a new element to the map.
+erase(iterator position) – Removes the element at the position pointed by the iterator.
+erase(const g)– Removes the key-value ‘g’ from the map.
+clear() – Removes all the elements from the map.
+  
+  
+ 
+ 2-1: map lower_bound:
+  
+  
+  The map::lower_bound(k) is a built-in function in C++ STL which returns an iterator pointing to the key in the container which is equivalent to k passed in the parameter.
+Syntax: 
+
+              map_name.lower_bound(key)
+  
+Parameters: This function accepts a single mandatory parameter key which specifies the element whose lower_bound is to be returned.
+Return Value: The function returns an iterator pointing to the key in the map container which is equivalent to k passed in the parameter. In case k is not present in the map container, the function returns an iterator pointing to the immediate next element which is just greater than k. If the key passed in the parameter exceeds the maximum key in the container, then the returned iterator points to the number of elements in the map as key and element= any element. 
+
+If the passed parameter exceeds the maximum key in the container, then returned iterator will point to the map::end() like in std::set.
+  
+  
+2-2: map upper_bound:
+  
+The map::upper_bound() is a built-in function in C++ STL which returns an iterator pointing to the immediate next element just greater than k. If the key passed in the parameter exceeds the maximum key in the container, then the iterator returned points to the number of elements in the map container as key and element=0.
+
+Syntax:
+
+              map_name.upper_bound(key)
+  
+Parameters: This function accepts a single mandatory parameter key which specifies the element whose upper_bound is returned.
+
+Return Value: The function returns an iterator pointing to the immediate next element which is just greater than k. If the key passed in the parameter exceeds the maximum key in the container, then returned iterator points to map_name.end(). Note that end() is a special iterator that does not store address of a valid member of a map.
+  
   
   
   
