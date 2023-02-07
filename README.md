@@ -1016,6 +1016,25 @@ A pair is a term that is used to combine two values that may or may not be of th
   
   
   
+   Some informations about binary serch tree (BST) :
+  ---------------------------------------
+  
+  -All the left node should be less than the Root node.
+  
+  -All the right node should be greater than the root node.
+  
+  -The left node should be less than the previous node.
+  
+  -The right node should be greater than the previous node.
+  
+  
+  -In binary search tree (The searching, deletion , insertion is going to take order f log in time O(log 2 n) in average case but in worst case is it O (n))
+
+  so searching about  a data using red-black-tree it is going to take less time... that is why we use red-black-tree
+  
+
+  
+In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree. The time complexity of operations on the binary search tree is directly proportional to the height of the tree.
 
 
 1: binary search tree
@@ -1188,50 +1207,55 @@ Red Black Trees are self-balancing, meaning that the tree adjusts itself automat
   
   
   <img width="304" alt="Screen Shot 2023-02-04 at 6 50 23 PM" src="https://user-images.githubusercontent.com/87101785/216782081-bd28d3da-8622-4968-9f57-cb6cf5c2c514.png">
-  
-
-  
-  
-  
-  
-  
+   
   <img width="703" alt="Screen Shot 2023-01-21 at 2 49 37 PM" src="https://user-images.githubusercontent.com/87101785/213869901-557ec6ee-473c-4b06-a6bf-87eccb31a3a9.png">
   
   
 
+Algorithm to insert a node into a Red-Black Tree:
+  
+  Following steps are followed for inserting a new element into a red-black tree:
+
+1: Let y be the leaf (ie. NIL) and x be the root of the tree.
+  
+2:Check if the tree is empty (ie. whether x is NIL). If yes, insert newNode as a root node and color it black.
+  
+3:Else, repeat steps following steps until leaf (NIL) is reached.
+  
+                    a.Compare newKey with rootKey.
+  
+                    b.If newKey is greater than rootKey, traverse through the right subtree.
+  
+                    c.Else traverse through the left subtree.
+  
+4:Assign the parent of the leaf as a parent of newNode.
+  
+5:If leafKey is greater than newKey, make newNode as rightChild.
+  
+6.Else, make newNode as leftChild.
+  
+7.Assign NULL to the left and rightChild of newNode.
+  
+8.Assign RED color to newNode.
+  
+9.Call InsertFix-algorithm to maintain the property of red-black tree if violated.
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  Some informations about binary serch tree (BST) :
-  ---------------------------------------
-  
-  -All the left node should be less than the Root node.
-  
-  -All the right node should be greater than the root node.
-  
-  -The left node should be less than the previous node.
-  
-  -The right node should be greater than the previous node.
-  
-  
-  -In binary search tree (The searching, deletion , insertion is going to take order f log in time O(log 2 n) in average case but in worst case is it O (n))
-
-  so searching about  a data using red-black-tree it is going to take less time... that is why we use red-black-tree
-  
-
-  
-In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree. The time complexity of operations on the binary search tree is directly proportional to the height of the tree.
 
 
 
