@@ -869,6 +869,10 @@ inserter:	Construct insert iterator (function template)
 make_move_iterator:	Construct move it
 
   
+  2: Map:
+  -------
+  
+  
   
   
   
