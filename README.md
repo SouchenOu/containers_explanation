@@ -1347,3 +1347,11 @@ https://en.wikipedia.org/wiki/Red%E2%80%93black_tree#Insertion
   
   
   https://www.youtube.com/watch?v=F9eDv-YIOQ0
+  
+  
+  
+  
+  
+  Tree iters operator++ :
+  
+  https://www.cs.odu.edu/~zeil/cs361/latest/Public/treetraversal/index.html
