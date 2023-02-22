@@ -942,7 +942,21 @@ Return Value: The function returns an iterator pointing to the immediate next el
   3: set
   -------
   
+Sets are a type of associative container in which each element has to be unique because the value of the element identifies it. The values are stored in a specific sorted order i.e. either ascending or descending.
   
+ 3.1: Properties
+  
+1: Storing order – The set stores the elements in sorted order.
+  
+2: Values Characteristics – All the elements in a set have unique values.
+  
+3: Values Nature – The value of the element cannot be modified once it is added to the set, though it is possible to remove and then add the modified value of that element. Thus, the values are immutable.
+  
+4: Search Technique – Sets follow the Binary search tree implementation.
+  
+5: Arranging order – The values in a set are unindexed.
+
+
   
   
   
