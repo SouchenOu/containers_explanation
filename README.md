@@ -960,6 +960,15 @@ Sets are a type of associative container in which each element has to be unique 
   
   
   
+  The differennce between map and set:
+  ------------------------------------
+  
+Set is an abstract data type in which each element has to be unique because the value of the element identifies it. The value of the element cannot be modified once it is added to the set, but it is possible to remove and add the modified value of that element.
+
+
+A Map is an associative container that store elements in a mapped fashion. Each element has a key value and a mapped value. No two mapped values can have the same key values.
+
+So, it is clear from above that, set contains the only key, and map contains a value with the key, both should have unique and sorted value.
   
   
   ----------------- ----------------- Additional functions :----------------- ----------------- ----------------- -----------------
